@@ -1,0 +1,30 @@
+/* app global css */
+
+.text-color {
+  color: #64FFDA
+}
+
+.text-color1 {
+  color: #faebd6
+}
+
+
+.text-color2 {
+  color: #8892b0
+}
+
+
+.card-color2 {
+  background-color: #172a45
+}
+
+.img-style1 {
+  z-index: 9;
+  margin-left: -100px;
+}
+
+
+.img-style2 {
+  z-index: 9;
+  margin-right: -100px;
+}
