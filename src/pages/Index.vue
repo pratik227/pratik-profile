@@ -319,7 +319,7 @@
             </div>
           </q-card-section>
           <q-card-section class="text-center col-12">
-            <span class="text-h5 text-color2 text-weight-bolder">Platinum Sponsors</span>
+            <span class="text-h5 text-color2 text-weight-bolder">Silver Sponsors</span>
           </q-card-section>
           <q-card-section class="col-12">
             <div class="row justify-center q-col-gutter-md">
@@ -355,22 +355,6 @@
                   </q-card-section>
                   <q-img @click="openurl('https://github.com/pboling')" class="cursor-pointer"
                          src="https://avatars2.githubusercontent.com/u/19505?s=400&v=4"
-                  >
-                    <template v-slot:loading>
-                      <q-spinner-gears color="white"/>
-                    </template>
-                  </q-img>
-                </q-card>
-              </div>
-              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <q-card class="card-color2" flat bordered>
-                  <q-card-section class="q-pa-sm">
-                    <div class="text-h6 text-center">
-                      OPENSRCI
-                    </div>
-                  </q-card-section>
-                  <q-img @click="openurl('https://github.com/opensrci')" class="cursor-pointer"
-                         src="https://avatars3.githubusercontent.com/u/48809113?s=400&u=152c3f5e3b43e0b0346e75647ba8bdd91557c50f&v=4"
                   >
                     <template v-slot:loading>
                       <q-spinner-gears color="white"/>
