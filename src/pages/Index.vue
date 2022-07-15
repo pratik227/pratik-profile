@@ -68,11 +68,53 @@
             <div class="line"></div>
           </q-card-section>
 
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-left text-color1">
+                Quasar Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                Quasar Admin Premium
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
+                <q-card-section>
+                  Looking for beautiful premium Quasar admin template for Vue 3? Please drop me an <a class="text-white" href="mailto:pratikpatelpp802@gmail.com">email</a>. Buy only at $69!
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-left text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://quasar-admin-premium.netlify.app/"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/Quasar_Admin_Premium.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+
           <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
             <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
             <div class="text-text-subtitle1 text-color2">
               <q-img class="q-mt-md "
-                     :src="require('src/statics/quasar-admin.png')"
+                     :src="require('src/statics/Quasar_Admin.png')"
                      style="width: 100%;"
                      native-context-menu
               >
@@ -95,7 +137,7 @@
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
                 <q-card-section>
                   Free Quasar Admin Template based on Vue.js and used Quasar Framework.This template also includes a
-                  variety of features that are required for admin template needs
+                  variety of features that are required for admin template needs. Now Supports Vue2/Vue3.
                 </q-card-section>
               </q-card>
 
@@ -107,7 +149,7 @@
                        target="_blank" padding="sm" outline>
                 </q-btn>
                 <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
-                       href="https://quasar-admin-demo.netlify.com"
+                       href="https://next-quasar-admin.netlify.app/"
                        target="_blank" padding="sm" outline>
                 </q-btn>
               </div>
@@ -127,7 +169,7 @@
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
                 <q-card-section>
                   QGrid is a Quasar App Extension. It allows you to filter data for each column, Drag and Drop Rows and
-                  also allows you to filter data using header filters.
+                  also allows you to filter data using header filters. Now Supports Vue2/Vue3.
                 </q-card-section>
               </q-card>
 
@@ -139,7 +181,7 @@
                        target="_blank" padding="sm" outline>
                 </q-btn>
                 <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
-                       href="https://quasar-qgrid.netlify.com/"
+                       href="https://next-quasar-qgrid.netlify.app/"
                        target="_blank" padding="sm" outline>
                 </q-btn>
               </div>
@@ -149,7 +191,7 @@
             <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
             <div class="q-pt-lg  text-text-subtitle1 text-color2">
               <q-img class="q-mt-md "
-                     :src="require('src/statics/qgrid.png')"
+                     :src="require('src/statics/QGridNew.png')"
                      style="width: 100%"
                      native-context-menu
               >
@@ -200,7 +242,7 @@
                        target="_blank" padding="sm" outline>
                 </q-btn>
                 <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
-                       href="https://quasar-echarts.surge.sh/"
+                       href="https://quasar-echarts-v5.netlify.app/"
                        target="_blank" padding="sm" outline>
                 </q-btn>
               </div>
@@ -221,7 +263,7 @@
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
                 <q-card-section>
                   QHierarchy is a Quasar App Extension. It allows you to display data in hierarchy structure on your
-                  page.
+                  page. Now Supports Vue2/Vue3.
                 </q-card-section>
               </q-card>
 
@@ -233,7 +275,7 @@
                        target="_blank" padding="sm" outline>
                 </q-btn>
                 <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
-                       href="https://quasar-qhierarchy.netlify.com/"
+                       href="https://next-quasar-qhierarchy.netlify.app/"
                        target="_blank" padding="sm" outline>
                 </q-btn>
               </div>
@@ -243,7 +285,7 @@
             <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
             <div class="q-pt-lg  text-text-subtitle1 text-color2">
               <q-img class="q-mt-md "
-                     :src="require('src/statics/qhierarchy.png')"
+                     :src="require('src/statics/QHierarchy.png')"
                      style="width: 100%"
                      native-context-menu
               >
