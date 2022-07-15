@@ -297,11 +297,12 @@
           </q-card-section>
 
 
+
           <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
             <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
             <div class="q-pt-lg  text-text-subtitle1 text-color2">
               <q-img class="q-mt-md "
-                     :src="require('src/statics/gaming.png')"
+                     :src="require('src/statics/qdraggable-tree.png')"
                      style="width: 100%"
                      native-context-menu
               >
@@ -317,11 +318,40 @@
                 Quasar Project
               </div>
               <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
-                Quasar Gaming
+                Quasar QDraggableTree
               </div>
 
               <q-card
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  Contributed to QDraggableTree for Vue js 3 Support. QDraggableTree is a component that displays hierarchical data with drag and drop ability.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://next-quasar-draggable-tree.netlify.app/"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
+          </q-card-section>
+
+
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-left text-color1">
+                Quasar Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                Quasar Gaming
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
                 <q-card-section>
                   This Template comes with all the necessary pages for a successful gaming website, like Team, Pricing
                   Plan, Games, Posts so on.
@@ -330,10 +360,10 @@
                 </q-card-section>
               </q-card>
 
-              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+              <div class="text-subtitle1 q-ma-sm text-left text-color1">
                 Quasar Vuejs Github
               </div>
-              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
                 <q-btn icon="fab fa-github" size="sm" type="a" href="https://github.com/pratik227/quasar-gaming"
                        target="_blank" padding="sm" outline>
                 </q-btn>
@@ -342,6 +372,20 @@
                        target="_blank" padding="sm" outline>
                 </q-btn>
               </div>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/gaming.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
             </div>
           </q-card-section>
 
