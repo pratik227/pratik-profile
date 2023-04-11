@@ -36,9 +36,9 @@
                 I started my career by working with HTML5, CSS3, AngularJS, Vue.js, Elasticsearch, and Python and
                 eventually
                 introduced myself with
-                Quasar-Framework. After getting hands-on experience on Quasar-Framework for 2 years, I got heavily
+                Quasar-Framework. After getting hands-on experience on Quasar-Framework for 5 years, I got heavily
                 involved
-                in creating plugins for Quasar Framework such as QHierarchy-Quasar App Extension.
+                in creating plugins for Quasar Framework such as QHierarchy, Qgrid Quasar App Extension.
               </div>
             </q-card-section>
           </div>
@@ -55,7 +55,7 @@
               <!--            </q-img>-->
 
               <q-img class=""
-                   :src="require('src/statics/profile3.jpg')"
+                   :src="require('src/statics/IMG_4832.jpg')"
                    :style="$q.screen.lt.lg?{'width': '100%'}:{'width': '100%'}"/>
             </q-card-section>
           </div>
@@ -66,6 +66,96 @@
           <q-card-section class="col-lg-12 col-sm-12 col-md-12 col-xs-12 ">
             <span class="text-h5 text-color2 text-weight-bolder q-ml-xl">02. Some Things I've Built </span>
             <div class="line"></div>
+          </q-card-section>
+
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-left text-color1">
+                Quasar Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                Quasar Minimalist Design
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
+                <q-card-section>
+                  Quasar Minimalist Design is a premium admin template that offers a range of features and functionalities.
+                  To gain access to the code, you'll need to sponsor me for $49 per month (one-time payment).
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-left text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://quasar-minimalist-design.netlify.app/"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/QMD.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+
+
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/Vue-json-excel.png')"
+                     style="width: 100%;"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-4 col-sm-12  col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-right text-color1">
+                NPM Package
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                Vue Json Excel
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  JSON to Excel for VUE 3.
+                  Download your JSON data as an Excel file directly from the browser.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <q-btn icon="fab fa-github" size="sm" type="a" href="https://github.com/pratik227/vue3-json-excel"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://vue-json-excel.netlify.app/"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
           </q-card-section>
 
           <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
@@ -109,6 +199,7 @@
               </q-img>
             </div>
           </q-card-section>
+
 
           <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
             <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
@@ -427,30 +518,6 @@
               </div>
             </div>
           </q-card-section>
-          <q-card-section class="text-center col-12">
-            <span class="text-h5 text-color2 text-weight-bolder">Sponsors</span>
-          </q-card-section>
-          <q-card-section class="col-12">
-            <div class="row justify-center q-col-gutter-md">
-              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <q-card class="card-color2" flat bordered>
-                  <q-card-section class="q-pa-sm">
-                    <div class="text-h6 text-center">
-                      Peter Boling
-                    </div>
-                  </q-card-section>
-                  <q-img @click="openurl('https://github.com/pboling')" class="cursor-pointer"
-                         src="https://avatars2.githubusercontent.com/u/19505?s=400&v=4"
-                  >
-                    <template v-slot:loading>
-                      <q-spinner-gears color="white"/>
-                    </template>
-                  </q-img>
-                </q-card>
-              </div>
-            </div>
-          </q-card-section>
-
         </q-card>
       </div>
 
