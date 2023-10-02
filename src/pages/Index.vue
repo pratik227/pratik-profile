@@ -55,8 +55,8 @@
               <!--            </q-img>-->
 
               <q-img class=""
-                   :src="require('src/statics/IMG_4832.jpg')"
-                   :style="$q.screen.lt.lg?{'width': '100%'}:{'width': '100%'}"/>
+                     :src="require('src/statics/IMG_4832.jpg')"
+                     :style="$q.screen.lt.lg?{'width': '100%'}:{'width': '100%'}"/>
             </q-card-section>
           </div>
         </q-card>
@@ -80,7 +80,8 @@
               <q-card
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
                 <q-card-section>
-                  Quasar Minimalist Design is a premium admin template that offers a range of features and functionalities.
+                  Quasar Minimalist Design is a premium admin template that offers a range of features and
+                  functionalities.
                   To gain access to the code, you'll need to sponsor me for $49 per month (one-time payment).
                 </q-card-section>
               </q-card>
@@ -170,7 +171,9 @@
               <q-card
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
                 <q-card-section>
-                  Looking for beautiful premium Quasar admin template for Vue 3? Please drop me an <a class="text-white" href="mailto:pratikpatelpp802@gmail.com">email</a>. Buy only at $69!
+                  Looking for beautiful premium Quasar admin template for Vue 3? Please drop me an <a class="text-white"
+                                                                                                      href="mailto:pratikpatelpp802@gmail.com">email</a>.
+                  Buy only at $69!
                 </q-card-section>
               </q-card>
 
@@ -388,7 +391,6 @@
           </q-card-section>
 
 
-
           <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
             <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
             <div class="q-pt-lg  text-text-subtitle1 text-color2">
@@ -415,7 +417,8 @@
               <q-card
                 :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
                 <q-card-section>
-                  Contributed to QDraggableTree for Vue js 3 Support. QDraggableTree is a component that displays hierarchical data with drag and drop ability.
+                  Contributed to QDraggableTree for Vue js 3 Support. QDraggableTree is a component that displays
+                  hierarchical data with drag and drop ability.
                 </q-card-section>
               </q-card>
 
@@ -480,6 +483,137 @@
             </div>
           </q-card-section>
 
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/skarv-technologies.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-right text-color1">
+                Quasar/Vuejs Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                Skarv Technologies
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  Skarv Technologies develops control and data analysis software, sensor-platforms, and underwater
+                  cameras for a wide range of marine applications.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
+                <!--                       href="https://skarv-technologies.web.app"-->
+                <!--                       target="_blank" padding="sm" outline>-->
+                <!--                </q-btn>-->
+              </div>
+            </div>
+          </q-card-section>
+
+
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-left text-color1">
+                Quasar/Vuejs Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                Skarv Technologies
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
+                <q-card-section>
+                  Skarv Technologies develops control and data analysis software, sensor-platforms, and underwater
+                  cameras for a wide range of marine applications.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-left text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                <!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
+                <!--                       href="https://map.skarvtech.com"-->
+                <!--                       target="_blank" padding="sm" outline>-->
+                <!--                </q-btn>-->
+              </div>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/map-skarvtech.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/Kameleon-maling.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-right text-color1">
+                Quasar/Vuejs Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                Kameleon Maling
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  Kameleon Maling specializes in innovative solutions for the world of painting and coatings. We are
+                  dedicated to developing cutting-edge paint formulations, application technologies, and surface
+                  treatments that transform industries and exceed customer expectations. With a commitment to quality,
+                  sustainability, and creative problem-solving, Kameleon Maling is your partner for a colorful future.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
+                <!--                       href="https://skarv-technologies.web.app"-->
+                <!--                       target="_blank" padding="sm" outline>-->
+                <!--                </q-btn>-->
+              </div>
+            </div>
+          </q-card-section>
+
         </q-card>
       </div>
       <div ref="sponsors">
@@ -487,9 +621,10 @@
           <q-card-section class="text-center col-12">
             <span class="text-h5 text-color2 text-weight-bolder q-ml-xl">03. Sponsors </span>
             <div class="text-h6 q-ma-md text-weight-bolder text-color1">
-              Sponsor me on GitHub Sponsors <q-btn icon="fas fa-heart" flat type="a" href="https://github.com/sponsors/pratik227" target="_blank">
+              Sponsor me on GitHub Sponsors
+              <q-btn icon="fas fa-heart" flat type="a" href="https://github.com/sponsors/pratik227" target="_blank">
 
-            </q-btn>
+              </q-btn>
             </div>
             <div class="text-h2 q-ma-md text-weight-bolder text-color1">
               Sponsors
@@ -509,6 +644,29 @@
                   </q-card-section>
                   <q-img @click="openurl('https://github.com/ex-kimura')" class="cursor-pointer"
                          src="https://avatars0.githubusercontent.com/u/60215365?s=400&u=8756228e08047e44c57cd1573e2dd7fd4a414dfa&v=4"
+                  >
+                    <template v-slot:loading>
+                      <q-spinner-gears color="white"/>
+                    </template>
+                  </q-img>
+                </q-card>
+              </div>
+            </div>
+          </q-card-section>
+          <q-card-section class="text-center col-12">
+            <span class="text-h5 text-color2 text-weight-bolder">Generous Backer</span>
+          </q-card-section>
+          <q-card-section class="col-12">
+            <div class="row justify-center q-col-gutter-md">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <q-card class="card-color2" flat bordered>
+                  <q-card-section class="q-pa-sm">
+                    <div class="text-h6 text-center">
+                      Tecnoactiva IT
+                    </div>
+                  </q-card-section>
+                  <q-img @click="openurl('https://github.com/tecnoactiva-it')" class="cursor-pointer"
+                         src="https://avatars.githubusercontent.com/u/71359093?v=4"
                   >
                     <template v-slot:loading>
                       <q-spinner-gears color="white"/>
@@ -576,34 +734,34 @@
 </template>
 
 <script>
-    export default {
-        name: 'PageIndex',
-        methods: {
-            go(ref) {
-                this.$refs[ref].scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'start',
-                    inline: 'start'
-                })
-            },
-            openurl(url) {
-                window.open(url)
-            }
-        },
-        mounted() {
-            this.$root.$on('goAbout', this.go.bind(this, 'about'));
-            this.$root.$on('goProjects', this.go.bind(this, 'projects'));
-            this.$root.$on('goContact', this.go.bind(this, 'contact'));
-            this.$root.$on('goSponsors', this.go.bind(this, 'sponsors'))
-        }
+export default {
+  name: 'PageIndex',
+  methods: {
+    go(ref) {
+      this.$refs[ref].scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+        inline: 'start'
+      })
+    },
+    openurl(url) {
+      window.open(url)
     }
+  },
+  mounted() {
+    this.$root.$on('goAbout', this.go.bind(this, 'about'));
+    this.$root.$on('goProjects', this.go.bind(this, 'projects'));
+    this.$root.$on('goContact', this.go.bind(this, 'contact'));
+    this.$root.$on('goSponsors', this.go.bind(this, 'sponsors'))
+  }
+}
 </script>
 <style>
-  .line {
-    width: 303px;
-    height: 0;
-    border: 1px solid #8892b0;
-    margin: 3px;
-    display: inline-block;
-  }
+.line {
+  width: 303px;
+  height: 0;
+  border: 1px solid #8892b0;
+  margin: 3px;
+  display: inline-block;
+}
 </style>
