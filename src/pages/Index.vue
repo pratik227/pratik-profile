@@ -68,6 +68,53 @@
             <div class="line"></div>
           </q-card-section>
 
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/quasar-dashboard.png')"
+                     style="width: 100%;"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-4 col-sm-12  col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-right text-color1">
+                Admin Dashboard
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                Quasar Premium Dashboard
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  Quasar Premium Dashboard is a feature-rich solution for your data analytics and web application needs.
+                  With two robust dashboards for CRMa and Ecommerce, as well as custom cards, email layouts, a calendar,
+                  and various page options, it's a versatile choice for your project. What sets it apart is that it's
+                  built using the Quasar framework, ensuring a pure and powerful development experience. Moreover, it
+                  offers dark mode and internationalization (i18n) support for added flexibility.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Demo
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://quasar-dashboard-premium.netlify.app/analytics"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
+          </q-card-section>
+
+
           <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
             <div class="q-pt-lg float-right">
               <div class="text-subtitle2 q-ma-sm text-left text-color1">
@@ -518,10 +565,10 @@
                 Quasar Vuejs Github
               </div>
               <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
-                <!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
-                <!--                       href="https://skarv-technologies.web.app"-->
-                <!--                       target="_blank" padding="sm" outline>-->
-                <!--                </q-btn>-->
+                                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                                       href="https://skarv-technologies.web.app"
+                                       target="_blank" padding="sm" outline>
+                                </q-btn>
               </div>
             </div>
           </q-card-section>
@@ -548,10 +595,10 @@
                 Quasar Vuejs Github
               </div>
               <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
-                <!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
-                <!--                       href="https://map.skarvtech.com"-->
-                <!--                       target="_blank" padding="sm" outline>-->
-                <!--                </q-btn>-->
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://map.skarvtech.com"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
               </div>
             </div>
           </q-card-section>
@@ -605,12 +652,12 @@
               <div class="text-subtitle1 q-ma-sm text-right text-color1">
                 Quasar Vuejs Github
               </div>
-              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
-                <!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
-                <!--                       href="https://skarv-technologies.web.app"-->
-                <!--                       target="_blank" padding="sm" outline>-->
-                <!--                </q-btn>-->
-              </div>
+<!--              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">-->
+<!--                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"-->
+<!--                       href="https://skarv-technologies.web.app"-->
+<!--                       target="_blank" padding="sm" outline>-->
+<!--                </q-btn>-->
+<!--              </div>-->
             </div>
           </q-card-section>
 
@@ -644,6 +691,61 @@
                   </q-card-section>
                   <q-img @click="openurl('https://github.com/ex-kimura')" class="cursor-pointer"
                          src="https://avatars0.githubusercontent.com/u/60215365?s=400&u=8756228e08047e44c57cd1573e2dd7fd4a414dfa&v=4"
+                  >
+                    <template v-slot:loading>
+                      <q-spinner-gears color="white"/>
+                    </template>
+                  </q-img>
+                </q-card>
+              </div>
+            </div>
+          </q-card-section>
+          <q-card-section class="text-center col-12">
+            <span class="text-h5 text-color2 text-weight-bolder">Bronze Sponsors</span>
+          </q-card-section>
+          <q-card-section class="col-12">
+            <div class="row justify-center q-col-gutter-md">
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <q-card class="card-color2" flat bordered>
+                  <q-card-section class="q-pa-sm">
+                    <div class="text-h6 text-center">
+                      fdoooch
+                    </div>
+                  </q-card-section>
+                  <q-img @click="openurl('https://github.com/fdoooch')" class="cursor-pointer"
+                         src="https://avatars.githubusercontent.com/u/20464468?v=4"
+                  >
+                    <template v-slot:loading>
+                      <q-spinner-gears color="white"/>
+                    </template>
+                  </q-img>
+                </q-card>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <q-card class="card-color2" flat bordered>
+                  <q-card-section class="q-pa-sm">
+                    <div class="text-h6 text-center">
+                      fundaxi
+                    </div>
+                  </q-card-section>
+                  <q-img @click="openurl('https://github.com/fundaxi')" class="cursor-pointer"
+                         src="https://avatars.githubusercontent.com/u/74941097?v=4"
+                  >
+                    <template v-slot:loading>
+                      <q-spinner-gears color="white"/>
+                    </template>
+                  </q-img>
+                </q-card>
+              </div>
+              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
+                <q-card class="card-color2" flat bordered>
+                  <q-card-section class="q-pa-sm">
+                    <div class="text-h6 text-center">
+                      AnnisaRizki30
+                    </div>
+                  </q-card-section>
+                  <q-img @click="openurl('https://github.com/AnnisaRizki30')" class="cursor-pointer"
+                         src="https://avatars.githubusercontent.com/u/52541134?v=4"
                   >
                     <template v-slot:loading>
                       <q-spinner-gears color="white"/>
