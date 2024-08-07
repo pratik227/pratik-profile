@@ -36,7 +36,7 @@
                 I started my career by working with HTML5, CSS3, AngularJS, Vue.js, Elasticsearch, and Python and
                 eventually
                 introduced myself with
-                Quasar-Framework. After getting hands-on experience on Quasar-Framework for 5 years, I got heavily
+                Quasar-Framework. After getting hands-on experience on Quasar-Framework for 6 years, I got heavily
                 involved
                 in creating plugins for Quasar Framework such as QHierarchy, Qgrid Quasar App Extension.
               </div>
@@ -614,12 +614,95 @@
             </div>
           </q-card-section>
 
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-left text-color1">
+                Quasar/Vuejs/Python Flask Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-left text-color1">
+                Reblue SustainSwift
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style2'">
+                <q-card-section>
+                  ReBlue Sustainability Integration Solutions is a project dedicated to empowering enterprises to
+                  seamlessly integrate sustainability into their core business strategies. The project aims to provide
+                  tools and technology solutions that make sustainability efforts both effortless and profitable.
+                  Through continuous research and design thinking, we identify and address emerging sustainability
+                  challenges, offering innovative solutions that drive growth. We also build an ecosystem of
+                  partnerships to deliver comprehensive and optimized sustainability transformations.
+                </q-card-section>
+              </q-card>
+
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/reblue.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+
+
+
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="q-pt-lg  text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/Dashboard_Training.png')"
+                     style="width: 100%"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-right text-color1">
+                Quasar/Vuejs Project
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                Personal Training Program Dashboard
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  Personal Training Program Dashboard is a project dedicated to empowering enterprises to seamlessly
+                  integrate sustainability into their core business strategies. The project aims to provide tools and
+                  technology solutions that make sustainability efforts both effortless and profitable.
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Quasar Vuejs Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://66b36d84abac60dbc1d1d2bf--remarkable-youtiao-2e0c87.netlify.app/"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
+          </q-card-section>
+
         </q-card>
       </div>
       <div ref="sponsors">
         <q-card class="bg-transparent no-shadow row q-col-gutter-lg q-pa-lg justify-center  text-white">
           <q-card-section class="text-center col-12">
-            <span class="text-h5 text-color2 text-weight-bolder q-ml-xl">03. Sponsors </span>
+            <span class="text-h5 text-color2 text-weight-bolder">03. Sponsors </span>
             <div class="text-h6 q-ma-md text-weight-bolder text-color1">
               Sponsor me on GitHub Sponsors
               <q-btn icon="fas fa-heart" flat type="a" href="https://github.com/sponsors/pratik227" target="_blank">
@@ -630,51 +713,8 @@
               Sponsors
             </div>
           </q-card-section>
-          <q-card-section class="text-center col-12">
-            <span class="text-h5 text-color2 text-weight-bolder">Silver Sponsors</span>
-          </q-card-section>
-          <q-card-section class="col-12">
-            <div class="row justify-center q-col-gutter-md">
-              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <q-card class="card-color2" flat bordered>
-                  <q-card-section class="q-pa-sm">
-                    <div class="text-h6 text-center">
-                      ex-kimura
-                    </div>
-                  </q-card-section>
-                  <q-img @click="openurl('https://github.com/ex-kimura')" class="cursor-pointer"
-                         src="https://avatars0.githubusercontent.com/u/60215365?s=400&u=8756228e08047e44c57cd1573e2dd7fd4a414dfa&v=4"
-                  >
-                    <template v-slot:loading>
-                      <q-spinner-gears color="white"/>
-                    </template>
-                  </q-img>
-                </q-card>
-              </div>
-            </div>
-          </q-card-section>
-          <q-card-section class="text-center col-12">
-            <span class="text-h5 text-color2 text-weight-bolder">Generous Backer</span>
-          </q-card-section>
-          <q-card-section class="col-12">
-            <div class="row justify-center q-col-gutter-md">
-              <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12">
-                <q-card class="card-color2" flat bordered>
-                  <q-card-section class="q-pa-sm">
-                    <div class="text-h6 text-center">
-                      Tecnoactiva IT
-                    </div>
-                  </q-card-section>
-                  <q-img @click="openurl('https://github.com/tecnoactiva-it')" class="cursor-pointer"
-                         src="https://avatars.githubusercontent.com/u/71359093?v=4"
-                  >
-                    <template v-slot:loading>
-                      <q-spinner-gears color="white"/>
-                    </template>
-                  </q-img>
-                </q-card>
-              </div>
-            </div>
+          <q-card-section class="col-12 text-center">
+            <img src='https://raw.githubusercontent.com/pratik227/static/main/sponsors.svg'/>
           </q-card-section>
         </q-card>
       </div>
@@ -682,11 +722,11 @@
       <div ref="contact">
         <q-card class="bg-transparent no-shadow row q-col-gutter-lg q-pa-lg justify-center  text-white">
           <q-card-section class="text-center">
-            <span class="text-h5 text-color2 text-weight-bolder q-ml-xl">04. What's Next? </span>
+            <span class="text-h5 text-color2 text-weight-bolder">04. What's Next? </span>
             <div class="text-h2 q-ma-md text-weight-bolder text-color1">
               Get In Touch
             </div>
-            <div style="width: 330px" class="text-color2">
+            <div style="width: 430px" class="text-color2">
               Although I'm not currently looking for any new opportunities, my inbox is always open. Whether you have a
               question or just want to say hi, I'll try my best to get back to you!
             </div>
