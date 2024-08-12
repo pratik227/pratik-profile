@@ -68,6 +68,59 @@
             <div class="line"></div>
           </q-card-section>
 
+
+          <q-card-section class="col-lg-7 col-sm-12 col-md-7 col-xs-12">
+            <!--          <span class="text-h5 text-color2 text-weight-bolder">01. Some Things I've Built </span>-->
+            <div class="text-text-subtitle1 text-color2">
+              <q-img class="q-mt-md "
+                     :src="require('src/statics/quasar_prime.png')"
+                     style="width: 100%;"
+                     native-context-menu
+              >
+                <template v-slot:loading>
+                  <q-spinner-gears color="white"/>
+                </template>
+              </q-img>
+            </div>
+          </q-card-section>
+          <q-card-section class="col-lg-4 col-sm-12  col-md-4 col-xs-12">
+            <div class="q-pt-lg float-right">
+              <div class="text-subtitle2 q-ma-sm text-right text-color1">
+                Quasar Admin Premium Template
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                Quasar Prime
+              </div>
+
+              <q-card
+                :class="!$q.platform.is.desktop?'card-color2 text-justify':'card-color2 text-justify q-my-xl img-style1'">
+                <q-card-section>
+                  Quasar Prime Template – Empowering Developers with an Exceptional Vue.js Admin Dashboard
+
+                  Unlock the full potential of your development projects with the Quasar Prime Template – a Vue.js Admin
+                  Dashboard that sets the standard for developer-friendly interfaces. Meticulously crafted to adhere to
+                  the highest industry standards, this template combines speed, usability, and scalability, providing an
+                  unparalleled foundation for creating dynamic and customizable admin dashboards.
+
+
+                </q-card-section>
+              </q-card>
+
+              <div class="text-subtitle1 q-ma-sm text-right text-color1">
+                Github
+              </div>
+              <div class="text-h6 q-ma-sm text-weight-bolder text-right text-color1">
+                <q-btn icon="fab fa-github" size="sm" type="a" href="https://github.com/Quasar-Admin-Templates/quasar_prime_admin_template"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+                <q-btn icon="fas fa-external-link-alt" class="q-ml-sm" size="sm" type="a"
+                       href="https://quasar-prime-admin-template.netlify.app/analytics"
+                       target="_blank" padding="sm" outline>
+                </q-btn>
+              </div>
+            </div>
+          </q-card-section>
+
           <q-card-section class="col-lg-4 col-sm-12 q-mt-lg col-md-4 col-xs-12">
             <div class="q-pt-lg float-right">
               <div class="text-subtitle2 q-ma-sm text-left text-color1">
