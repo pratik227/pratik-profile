@@ -767,7 +767,7 @@
             </div>
           </q-card-section>
           <q-card-section class="col-12 text-center">
-            <img src='https://raw.githubusercontent.com/pratik227/static/main/sponsors.svg'/>
+            <img src='https://raw.githubusercontent.com/pratik227/static/main/sponsors.svg' :width="$q.screen.lt.lg?'400px':''"/>
           </q-card-section>
         </q-card>
       </div>
@@ -831,6 +831,7 @@ export default {
   name: 'PageIndex',
   methods: {
     go(ref) {
+      console.log("jh")
       this.$refs[ref].scrollIntoView({
         behavior: 'smooth',
         block: 'start',
